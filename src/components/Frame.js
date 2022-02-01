@@ -18,11 +18,13 @@ class Frame extends Component {
   render() {
     return(
       <div className={this.state.isMenuOpen ? 'menu open' : 'menu'}>
-        <div className="flex flex-row items-center p-4">
+        <div className="flex flex-row items-center p-4 fixed w-screen top-0 left-0">
           <MenuIcon className={this.state.isMenuOpen ? 'h-5 w-5 text-gray-600 hidden' : 'h-5 w-5 text-gray-600'} onClick={ this.handleMenuButton } />
           <XIcon className={this.state.isMenuOpen ? 'h-5 w-5 text-gray-600' : 'h-5 w-5 text-gray-600 hidden'} onClick={ this.handleMenuButton } />
         </div>
-        {this.props.children}
+        <div className="h-screen w-screen flex flex-col items-center justify-center">
+          {this.props.children}
+        </div>
       </div>
     )
   }

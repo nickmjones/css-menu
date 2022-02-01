@@ -16,7 +16,7 @@ const Menu = () => {
 
       <div className="flex flex-row items-center mt-8">
         <UserCircleIcon className="h-8 w-8 text-white mr-2"/>
-        <div className="font-bold text-white text-xl">Macbeth</div>
+        <div className="font-bold text-white text-2xl">Hi Bailey</div>
       </div>
 
       <ul className="text-white/75 mt-10 font-normal text-lg">
@@ -33,16 +33,8 @@ const Menu = () => {
           Receipt
         </li>
         <li className="flex flex-row items-center mb-8">
-          <UserIcon className="h-5 w-5 text-white mr-2" />
-          My Information
-        </li>
-        <li className="flex flex-row items-center mb-8">
           <LocationMarkerIcon className="h-5 w-5 text-white mr-2" />
           Locate Store
-        </li>
-        <li className="flex flex-row items-center mb-8">
-          <ShieldCheckIcon className="h-5 w-5 text-white mr-2" />
-          Security
         </li>
         <li className="flex flex-row items-center mb-16">
           <PhoneIcon className="h-5 w-5 text-white mr-2" />
