@@ -23,7 +23,6 @@ class Frame extends Component {
           <XIcon className={this.state.isMenuOpen ? 'h-5 w-5 text-gray-600' : 'h-5 w-5 text-gray-600 hidden'} onClick={ this.handleMenuButton } />
         </div>
         {this.props.children}
-        
       </div>
     )
   }
